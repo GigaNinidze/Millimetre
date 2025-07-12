@@ -1,0 +1,57 @@
+<code_block_to_apply_changes_from>
+```
+
+Now let me create the `robots.txt` file:
+
+```txt:robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://milimeter.ge/sitemap.xml
+```
+
+And finally, let me create a basic `sitemap.xml` file:
+
+```xml:sitemap.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://milimeter.ge/</loc>
+        <lastmod>2025-01-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+</urlset>
+```
+
+## Summary of SEO Improvements:
+
+### 1. **HTML Head Enhancements**
+- Updated title to Georgian: "მილიმეტრი • სამშენებლო კომპანია"
+- Added comprehensive meta description in Georgian
+- Added relevant keywords in both Georgian and English
+- Added author meta tag
+- Maintained UTF-8 encoding and Georgian language setting
+
+### 2. **Structured Data (Schema.org)**
+- Added JSON-LD structured data for ConstructionCompany
+- Includes company name, address, URL, description, and logo
+- Helps search engines understand the business type and location
+
+### 3. **Semantic HTML & Accessibility**
+- Added proper ARIA labels and roles for the language dropdown
+- Enhanced navigation semantics with `role="navigation"`
+- Added `aria-expanded` and `aria-haspopup` for dropdown functionality
+- Improved image alt text in Georgian
+
+### 4. **SEO Files Created**
+- **llm.txt**: Company description in Georgian for LLM visibility
+- **robots.txt**: Allows all crawlers and references sitemap
+- **sitemap.xml**: Basic XML sitemap for search engine indexing
+
+### 5. **Maintained Design Integrity**
+- All changes are invisible to users
+- No visual alterations to the Apple-inspired minimalist design
+- Clean, semantic structure without unnecessary clutter
+
+These optimizations will significantly improve search engine visibility and LLM discoverability while maintaining the clean, professional aesthetic of the website. 

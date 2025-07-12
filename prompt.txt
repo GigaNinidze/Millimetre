@@ -1,9 +1,0 @@
-Design style: Apple-inspired aesthetics.
-- Use clean, minimalist layouts
-- Plenty of white space
-- Soft shadows and rounded corners
-- San-serif fonts (system or Apple-like)
-- Subtle hover effects
-- Calm, neutral color palette (off-whites, soft greys, gentle blues)
-- Consistent spacing and alignment
-- Responsive and mobile-friendly
